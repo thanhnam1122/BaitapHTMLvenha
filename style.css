@@ -1,0 +1,59 @@
+.container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 1px solid white;
+}
+
+.box {
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px; /* Chiều rộng của nút link */
+    height: 50px; /* Chiều cao của nút link */
+}
+
+.pink {
+    top: 100px;
+    left: 100px;
+    background-color: pink;
+    box-sizing: border-box;
+}
+
+.blue {
+    top: 100px;
+    right: 100px;
+    background-color: blue;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+.red {
+    bottom: 100px;
+    left: 100px;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+.yellow {
+    bottom: 100px;
+    right: 100px;
+    background-color: yellow;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Đảm bảo hình ảnh bao phủ đầy đủ kích thước của container */
+}
